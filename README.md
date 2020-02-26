@@ -1,3 +1,9 @@
+### How to debug quickjs?
+
+This project use Linux environment, if you are using windows, you must be have `vscode remote development` installed.
+
+Just clone this project and run `qjs-debug` in launch.json
+
 <h1>QuickJS Javascript Engine</h1>
 
 <h2>News</h2>
