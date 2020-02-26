@@ -5,11 +5,14 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "qjs-debug",
+      "name": "qjs-debug main.js",
       "type": "cppdbg",
       "request": "launch",
       "program": "${workspaceRoot}/qjs-debug",
-      "args": [],
+      "args": [
+         "-I",
+         "${workspaceFolder}/debugger/main.js"
+      ],
       "stopAtEntry": true,
       "cwd": "${workspaceFolder}",
       "environment": [],
@@ -22,8 +25,10 @@
           "ignoreFailures": true
         }
       ],
+      "logging": {"engineLogging": true},
       "preLaunchTask": "gcc build active file",
-      "miDebuggerPath": "/usr/bin/gdb"
+      "miDebuggerPath": "/usr/bin/gdb",
+      "miDebuggerArgs": "--args"
     }
   ]
 }
