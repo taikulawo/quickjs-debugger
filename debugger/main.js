@@ -1,1 +1,1 @@
-console.log("some debug file for test")
+console.log("some debug file for test :)")

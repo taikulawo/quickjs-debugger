@@ -10,7 +10,6 @@
       "request": "launch",
       "program": "${workspaceRoot}/qjs-debug",
       "args": [
-         "-I",
          "${workspaceFolder}/debugger/main.js"
       ],
       "stopAtEntry": true,
@@ -27,8 +26,7 @@
       ],
       "logging": {"engineLogging": true},
       "preLaunchTask": "gcc build active file",
-      "miDebuggerPath": "/usr/bin/gdb",
-      "miDebuggerArgs": "--args"
+      "miDebuggerPath": "/usr/bin/gdb"
     }
   ]
 }
